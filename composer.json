@@ -1,0 +1,45 @@
+{
+  "name": "putyourlightson/craft-datastar",
+  "description": "A real-time, template-driven hypermedia framework for Craft.",
+  "version": "1.0.0-alpha.1",
+  "type": "craft-plugin",
+  "license": "mit",
+  "require": {
+    "php": "^8.2",
+    "craftcms/cms": "^5.0",
+    "putyourlightson/craft-datastar-module": "^1.0.0-alpha.1"
+  },
+  "require-dev": {
+    "craftcms/ecs": "dev-main",
+    "craftcms/phpstan": "dev-main",
+    "nystudio107/craft-autocomplete": "^1.12"
+  },
+  "autoload": {
+    "psr-4": {
+      "putyourlightson\\datastar\\plugin\\": "src/"
+    }
+  },
+  "extra": {
+    "handle": "datastar",
+    "name": "Datastar",
+    "developer": "PutYourLightsOn",
+    "developerUrl": "https://putyourlightson.com/",
+    "documentationUrl": "https://putyourlightson.com/plugins/datastar",
+    "changelogUrl": "https://raw.githubusercontent.com/putyourlightson/craft-datastar/develop/CHANGELOG.md",
+    "class": "putyourlightson\\datastar\\plugin\\Plugin"
+  },
+  "scripts": {
+    "check-cs": "ecs check --ansi",
+    "fix-cs": "ecs check --ansi --fix",
+    "phpstan": "phpstan --memory-limit=1G"
+  },
+  "config": {
+    "allow-plugins": {
+      "craftcms/plugin-installer": true,
+      "pestphp/pest-plugin": true,
+      "yiisoft/yii2-composer": true
+    },
+    "optimize-autoloader": true,
+    "sort-packages": true
+  }
+}
