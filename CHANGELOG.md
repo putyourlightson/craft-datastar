@@ -1,5 +1,9 @@
 # Release Notes for Datastar
 
+## 1.0.0-alpha.2 - 2024-11-24
+
+- Initial functional release.
+
 ## 1.0.0-alpha.1 - 2024-11-22
 
 - Initial alpha release.
