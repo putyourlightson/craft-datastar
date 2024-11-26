@@ -41,5 +41,7 @@
     },
     "optimize-autoloader": true,
     "sort-packages": true
-  }
+  },
+  "minimum-stability": "alpha",
+  "prefer-stable": true
 }
