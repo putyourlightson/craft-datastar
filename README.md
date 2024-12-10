@@ -5,7 +5,7 @@
 
 # Datastar Plugin for Craft CMS
 
-### A reactive, template-driven hypermedia framework for Craft CMS.
+### A reactive template-driven hypermedia framework for Craft CMS.
 
 **This plugin is in beta and its API may change.**
 
