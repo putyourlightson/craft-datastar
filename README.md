@@ -5,21 +5,20 @@
 
 # Datastar Plugin for Craft CMS
 
-### A reactive template-driven hypermedia framework for Craft CMS.
+### A template-driven, reactive hypermedia framework for Craft CMS.
 
-**This plugin is in beta and its API may change.**
+> {warning}
+> **This plugin is in beta and its API may change.**
 
-This plugin integrates [Datastar](https://data-star.dev/) with [Craft CMS](https://craftcms.com/), allowing you to create reactive frontends driven by Twig templates. It aims to replace the need for front-end frameworks such as React, Vue.js and Alpine.js + htmx, and instead lets you manage state and run logic within your Twig templates.
+This plugin integrates the [Datastar hypermedia framework](https://data-star.dev/) with [Craft CMS](https://craftcms.com/), allowing you to create reactive front-ends driven by Twig templates. It aims to replace the need for front-end frameworks such as React, Vue.js and Alpine.js + htmx, and instead lets you manage state and use logic within your Twig templates.
 
-With Datastar, you have the ability to define state and manipulate the DOM in real-time on the front-end, while modify the DOM with templates rendered on the back-end. Use-cases:
+Use-cases:
 
 - Live searching elements
 - Loading more elements / Infinite scroll
 - Paginating, ordering and filtering lists of elements
 - Submitting forms and running actions
 - Pretty much anything to do with reactive front-ends
-
-Datastar is lightweight, performant and strongly opinionated about embracing hypermedia and removing front-end complexity.
 
 ## Documentation
 
