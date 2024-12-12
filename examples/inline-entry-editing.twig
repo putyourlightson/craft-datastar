@@ -32,7 +32,7 @@
                                     </div>
                                 </div>
                                 <div data-show="entryId.value == {{ entry.id }}" style="display: none">
-                                    <input data-bind-title data-on-keydown:key_enter="save.value.click()" type="text" class="input input-bordered w-full">
+                                    <input data-bind-title data-on-keydown="evt.key == 'Enter' && save.value.click()" type="text" class="input input-bordered w-full">
                                 </div>
                             </td>
                             <td>{{ entry.author.username }}</td>
@@ -40,10 +40,10 @@
                                 <button id="edit-{{ entry.id }}" data-on-click="alert.value = false; entryId.value = {{ entry.id }}; title.value = '{{ entry.title }}'" data-show="entryId.value != {{ entry.id }}" class="btn">
                                     Edit
                                 </button>
-                                <button data-on-click="alert.value = false; entryId.value = 0; this.value = title.value" data-show="entryId.value == {{ entry.id }}" class="btn" style="display: none">
+                                <button data-on-click="alert.value = false; entryId.value = 0" data-show="entryId.value == {{ entry.id }}" class="btn" style="display: none">
                                     Cancel
                                 </button>
-                                <button data-ref-save data-on-click="confirm('Are you sure?') && {{ datastar.post('_datastar/save-entry.twig') }}" data-show="entryId.value == {{ entry.id }}" class="btn btn-primary" style="display: none">
+                                <button data-ref-save data-on-click="confirm('Are you sure?') && {{ datastar.sse('_datastar/save-entry.twig', {method: 'post'}) }}" data-show="entryId.value == {{ entry.id }}" class="btn btn-primary" style="display: none">
                                     Save
                                 </button>
                             </td>
