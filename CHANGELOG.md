@@ -1,8 +1,14 @@
 # Release Notes for Datastar
 
-## 1.0.0-beta.2 - 2024-12-16
+## 1.0.0-beta.2 - 2024-12-17
 
-- Require Datastar 0.21.3.
+### Added
+
+- Added the ability to expose the Datastar object by attaching it to the `window` element.
+
+### Changed
+
+- The plugin now requires Datastar 0.21.3.
 
 ## 1.0.0-beta.1 - 2024-12-11
 
