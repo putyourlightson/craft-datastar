@@ -1,5 +1,9 @@
 # Release Notes for Datastar
 
+## 1.0.0-beta.2 - 2024-12-16
+
+- Require Datastar 0.21.3.
+
 ## 1.0.0-beta.1 - 2024-12-11
 
 - Require Datastar 0.21.2.
