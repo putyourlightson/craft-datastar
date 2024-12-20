@@ -5,6 +5,7 @@
 
 namespace putyourlightson\datastar\plugin;
 
+use Craft;
 use craft\base\Model;
 use craft\base\Plugin as BasePlugin;
 use putyourlightson\datastar\Datastar;
@@ -16,7 +17,9 @@ class Plugin extends BasePlugin
     {
         parent::init();
 
-        Datastar::bootstrap();
+        if (Craft::$app->getRequest()->getIsSiteRequest()) {
+            Datastar::bootstrap();
+        }
     }
 
     /**
