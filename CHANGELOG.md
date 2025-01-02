@@ -1,14 +1,14 @@
 # Release Notes for Datastar
 
-## 1.0.0-beta.3 - Unreleased
+## 1.0.0-beta.3 - 2025-01-02
 
 ### Added
 
-- Added `datastar.get()`, `datastar.post()`, `datastar.put()`, `datastar.patch()` and `datastar.delete()` methods.
+- Added the `datastar.get()`, `datastar.post()`, `datastar.put()`, `datastar.patch()` and `datastar.delete()` methods, which replace `datastar.sse()`.
 
 ### Changed
 
-- The `datastar.sse()` argument signature is now `(template, variables, options)`.
+- The `datastar.sse()` method has been removed.
 - Query and body params are no longer removed when the request content type is not JSON.
 - The plugin now requires Datastar [v1.0.0-beta.1](https://github.com/starfederation/datastar/releases/tag/v1.0.0-beta.1).
 
