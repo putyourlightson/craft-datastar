@@ -1,13 +1,13 @@
 {
   "name": "putyourlightson/craft-datastar",
-  "description": "A real-time, template-driven hypermedia framework for Craft.",
-  "version": "1.0.0-beta.3",
+  "description": "A template-driven, reactive hypermedia framework for Craft.",
+  "version": "1.0.0-beta.4",
   "type": "craft-plugin",
   "license": "mit",
   "require": {
     "php": "^8.2",
     "craftcms/cms": "^5.0",
-    "putyourlightson/craft-datastar-module": "^1.0.0-beta.4"
+    "putyourlightson/craft-datastar-module": "^1.0.0-beta.5"
   },
   "require-dev": {
     "craftcms/ecs": "dev-main",
@@ -42,6 +42,6 @@
     "optimize-autoloader": true,
     "sort-packages": true
   },
-  "minimum-stability": "alpha",
+  "minimum-stability": "beta",
   "prefer-stable": true
 }

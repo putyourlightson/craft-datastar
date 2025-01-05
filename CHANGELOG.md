@@ -1,5 +1,15 @@
 # Release Notes for Datastar
 
+## 1.0.0-beta.4 - 2025-01-05
+
+### Added
+
+- Added CSRF protection to all non-GET requests to the Datastar controller action.
+
+### Fixed
+
+- Fixed a bug that was resulting in an infinite loop when validating variables containing arrays ([#3](https://github.com/putyourlightson/craft-datastar/issues/3)).
+
 ## 1.0.0-beta.3 - 2025-01-02
 
 ### Added
