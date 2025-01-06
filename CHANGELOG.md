@@ -4,7 +4,7 @@
 
 ### Fixed
 
-- Fixed a bug in which templates were not being correctly rendered ([#3](https://github.com/putyourlightson/craft-datastar/issues/3)).
+- Fixed a bug in which templates were not being correctly rendered ([#2](https://github.com/putyourlightson/craft-datastar-module/issues/2)).
 
 ## 1.0.0-beta.4 - 2025-01-05
 
