@@ -1,5 +1,11 @@
 # Release Notes for Datastar
 
+## 1.0.0-beta.5 - 2025-01-06
+
+### Fixed
+
+- Fixed a bug in which templates were not being correctly rendered ([#3](https://github.com/putyourlightson/craft-datastar/issues/3)).
+
 ## 1.0.0-beta.4 - 2025-01-05
 
 ### Added
