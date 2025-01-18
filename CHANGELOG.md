@@ -4,7 +4,7 @@
 
 ### Added
 
-- Added the `datastar.signals()` and `datastar.signalsFromClass()` and methods.
+- Added the `datastar.signals()` and `datastar.signalsFromClass()` methods.
 
 ## 1.0.0-beta.5 - 2025-01-06
 
