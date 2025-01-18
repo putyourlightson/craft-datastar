@@ -1,5 +1,11 @@
 # Release Notes for Datastar
 
+## 1.0.0-beta.6 - 2025-01-18
+
+### Added
+
+- Added the `datastar.signals()` and `datastar.signalsFromClass()` and methods.
+
 ## 1.0.0-beta.5 - 2025-01-06
 
 ### Fixed
