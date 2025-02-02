@@ -1,0 +1,13 @@
+{% set delay = signals.delay * 1000 %}
+{% set message = 'Hello, world!' %}
+
+{% for i in range(0, message|length - 1) %}
+    {% fragment %}
+        <div id="message">
+            {{ message|slice(0, i + 1) }}
+        </div>
+    {% endfragment %}
+
+    {# Sleeps for the provided duration. Provided by a custom Twig extension function. #}
+    {% do sleep(delay) %}
+{% endfor %}

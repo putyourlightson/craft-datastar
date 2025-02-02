@@ -1,5 +1,12 @@
 # Release Notes for Datastar
 
+## 1.0.0-beta.7 - 2025-02-01
+
+### Added
+
+- Added the `location` Twig tag.
+- Added the `sleep` Twig tag.
+
 ## 1.0.0-beta.6 - 2025-01-18
 
 ### Added
