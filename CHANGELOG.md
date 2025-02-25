@@ -1,5 +1,11 @@
 # Release Notes for Datastar
 
+## 1.0.0-beta.8 - 2025-02-25
+
+### Removed
+
+- Removed the ability to expose the Datastar object, since the framework no longer exposes it.
+
 ## 1.0.0-beta.7 - 2025-02-01
 
 ### Added
