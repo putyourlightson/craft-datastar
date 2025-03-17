@@ -1,5 +1,15 @@
 # Release Notes for Datastar
 
+## 1.0.0-beta.9 - Unreleased
+
+### Changed
+
+- Control panel requests now use the `data-star-*` aliased bundle.
+
+### Removed
+
+- Removed the `settleDuration` fragment option.
+
 ## 1.0.0-beta.8 - 2025-02-25
 
 ### Removed
