@@ -43,7 +43,7 @@
                                 <button data-on-click="alert.value = false; entryId.value = 0" data-show="entryId.value == {{ entry.id }}" class="btn" style="display: none">
                                     Cancel
                                 </button>
-                                <button data-ref-save data-on-click="confirm('Are you sure?') && {{ datastar.sse('_datastar/save-entry.twig', {method: 'post'}) }}" data-show="entryId.value == {{ entry.id }}" class="btn btn-primary" style="display: none">
+                                <button data-ref-save data-on-click="confirm('Are you sure?') && {{ datastar.post('_datastar/save-entry.twig') }}" data-show="entryId.value == {{ entry.id }}" class="btn btn-primary" style="display: none">
                                     Save
                                 </button>
                             </td>
