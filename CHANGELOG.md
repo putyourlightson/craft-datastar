@@ -1,5 +1,9 @@
 # Release Notes for Datastar
 
+## 1.0.0-RC.1 - Unreleased
+
+- The plugin now requires Datastar [v1.0.0-RC.1](https://github.com/starfederation/datastar/releases/tag/v1.0.0-RC.1).
+
 ## 1.0.0-beta.9 - 2025-03-29
 
 ### Changed

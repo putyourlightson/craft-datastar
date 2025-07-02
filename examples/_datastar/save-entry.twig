@@ -3,7 +3,7 @@
     title: signals.title,
 }) %}
 
-{% fragment %}
+{% patchelements %}
     {% if response.isSuccessful %}
     {# https://daisyui.com/components/alert/#success-color #}
     <div id="alert" data-show="alert.value" role="alert" class="alert alert-success">
@@ -28,10 +28,10 @@
     <button id="edit-{{ signals.entryId }}" data-on-click="entryId.value = {{ signals.entryId }}; title..value = '{{ signals.title }}'" data-show="entryId.value != {{ signals.entryId }}" class="btn">
         Edit
     </button>
-{% endfragment %}
+{% endpatchelements %}
     {% do signals.entryId(0) %}
 {% else %}
-    {% fragment %}
+    {% patchelements %}
         {# https://daisyui.com/components/alert/#error-color #}
         <div id="alert" data-show="alert.value" role="alert" class="alert alert-error">
             <svg
@@ -52,7 +52,7 @@
                 {% endfor %}
             </span>
         </div>
-    {% endfragment %}
+    {% endpatchelements %}
 {% endif %}
 
 {% do signals.alert(true) %}

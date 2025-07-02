@@ -2,11 +2,11 @@
 {% set message = 'Hello, world!' %}
 
 {% for i in range(0, message|length - 1) %}
-    {% fragment %}
+    {% patchelements %}
         <div id="message">
             {{ message|slice(0, i + 1) }}
         </div>
-    {% endfragment %}
+    {% endpatchelements %}
 
     {# Sleeps for the provided duration. Provided by a custom Twig extension function. #}
     {% do sleep(delay) %}
