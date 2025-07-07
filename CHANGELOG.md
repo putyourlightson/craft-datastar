@@ -3,6 +3,9 @@
 ## 1.0.0-RC.1 - Unreleased
 
 - The plugin now requires Datastar [v1.0.0-RC.1](https://github.com/starfederation/datastar/releases/tag/v1.0.0-RC.1).
+- Renamed the `fragments` Twig tag to `patchelements`.
+- Renamed the `removefragments` Twig tag to `removeelements`.
+- Renamed the `defaultFragmentOptions` config setting to `defaultElementOptions`.
 
 ## 1.0.0-beta.9 - 2025-03-29
 
