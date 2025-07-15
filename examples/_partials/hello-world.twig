@@ -1,4 +1,4 @@
-{% set delay = (signals.delay ?? 1) * 1000 %}
+{% set delay = signals.delay ?? 100 %}
 {% set message = 'Hello, world!' %}
 
 {% for i in range(0, message|length - 1) %}
@@ -9,5 +9,5 @@
     {% endpatchelements %}
 
     {# Sleeps for the provided duration. Provided by a custom Twig extension function. #}
-    {% do sleep(delay) %}
+    {% sleep delay ms %}
 {% endfor %}
