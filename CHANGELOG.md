@@ -1,11 +1,14 @@
 # Release Notes for Datastar
 
-## 1.0.0-RC.1 - Unreleased
+## 1.0.0-RC.1 - 2025-07-15
 
-- The plugin now requires Datastar [v1.0.0-RC.1](https://github.com/starfederation/datastar/releases/tag/v1.0.0-RC.1).
+- The plugin now requires Datastar [1.0.0-RC.1](https://github.com/starfederation/datastar/releases/tag/v1.0.0-RC.1) or later, and Craft CMS 5.4.0 or later.
+- Added the `patchsignals` Twig tag.
+- Added the `removeelements` Twig tag.
 - Renamed the `fragments` Twig tag to `patchelements`.
-- Renamed the `removefragments` Twig tag to `removeelements`.
 - Renamed the `defaultFragmentOptions` config setting to `defaultElementOptions`.
+- Removed the `datastar.signals()` and `datastar.signalsFromClass()` methods. Use the `|json_encode` filter instead.
+- Removed the `SignalsModel` class. The `signals` variable passed into Datastar templates is now a regular array. Use the `patchsignals` Twig tag to update and remove signals.
 
 ## 1.0.0-beta.9 - 2025-03-29
 

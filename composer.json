@@ -6,7 +6,7 @@
   "license": "mit",
   "require": {
     "php": "^8.2",
-    "craftcms/cms": "^5.0",
+    "craftcms/cms": "^5.4",
     "putyourlightson/craft-datastar-module": "^1.0.0-RC.1"
   },
   "require-dev": {

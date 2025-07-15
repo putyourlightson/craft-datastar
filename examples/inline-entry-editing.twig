@@ -26,24 +26,24 @@
                         <tr>
                             <td>{{ entry.id }}</td>
                             <td>
-                                <div data-show="entryId.value != {{ entry.id }}">
+                                <div data-show="$entryId != {{ entry.id }}">
                                     <div id="title-{{ entry.id }}">
                                         {{ entry.title }}
                                     </div>
                                 </div>
-                                <div data-show="entryId.value == {{ entry.id }}" style="display: none">
-                                    <input data-bind-title data-on-keydown="evt.key == 'Enter' && save.value.click()" type="text" class="input input-bordered w-full">
+                                <div data-show="$entryId == {{ entry.id }}" style="display: none">
+                                    <input data-bind-title data-on-keydown="evt.key == 'Enter' && confirm('Are you sure?') && {{ datastar.post('_partials/save-entry.twig') }}" type="text" class="input input-bordered w-full">
                                 </div>
                             </td>
                             <td>{{ entry.author.username }}</td>
                             <td>
-                                <button id="edit-{{ entry.id }}" data-on-click="alert.value = false; entryId.value = {{ entry.id }}; title.value = '{{ entry.title }}'" data-show="entryId.value != {{ entry.id }}" class="btn">
+                                <button id="edit-{{ entry.id }}" data-on-click="$alert = false; $entryId = {{ entry.id }}; $title = '{{ entry.title }}'" data-show="$entryId != {{ entry.id }}" class="btn">
                                     Edit
                                 </button>
-                                <button data-on-click="alert.value = false; entryId.value = 0" data-show="entryId.value == {{ entry.id }}" class="btn" style="display: none">
+                                <button data-on-click="$alert = false; $entryId = 0" data-show="$entryId == {{ entry.id }}" class="btn" style="display: none">
                                     Cancel
                                 </button>
-                                <button data-ref-save data-on-click="confirm('Are you sure?') && {{ datastar.post('_datastar/save-entry.twig') }}" data-show="entryId.value == {{ entry.id }}" class="btn btn-primary" style="display: none">
+                                <button data-on-click="confirm('Are you sure?') && {{ datastar.post('_partials/save-entry.twig') }}" data-show="$entryId == {{ entry.id }}" class="btn btn-primary" style="display: none">
                                     Save
                                 </button>
                             </td>
