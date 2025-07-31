@@ -1,5 +1,12 @@
 # Release Notes for Datastar
 
+## 1.0.0-RC.3 - 2025-07-31
+
+- The plugin now includes Datastar [1.0.0-RC.3](https://github.com/starfederation/datastar/releases/tag/v1.0.0-RC.3).
+- Added the ability to pass controller actions to backend requests by passing an action path that starts with the action trigger to `datastar.get()` (and equivalent Twig functions).
+- Server sent events are now only sent when generated inside a callable passed to `getEventStream()`.
+- Renamed the `getStreamedResponse()` method to `getEventStream()`.
+
 ## 1.0.0-RC.2 - 2025-07-16
 
 - The plugin now includes Datastar [1.0.0-RC.2](https://github.com/starfederation/datastar/releases/tag/v1.0.0-RC.2).
