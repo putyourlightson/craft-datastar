@@ -9,7 +9,7 @@ use Craft;
 use craft\base\Model;
 use craft\base\Plugin as BasePlugin;
 use putyourlightson\datastar\Datastar;
-use putyourlightson\datastar\models\SettingsModel;
+use putyourlightson\datastar\models\Settings;
 
 class Plugin extends BasePlugin
 {
@@ -27,6 +27,6 @@ class Plugin extends BasePlugin
      */
     public function getSettings(): Model
     {
-        return new SettingsModel();
+        return new Settings();
     }
 }

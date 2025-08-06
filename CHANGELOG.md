@@ -1,5 +1,12 @@
 # Release Notes for Datastar
 
+## 1.0.0-RC.4 - 2025-08-06
+
+- The plugin now includes Datastar [1.0.0-RC.4](https://github.com/starfederation/datastar/releases/tag/v1.0.0-RC.4).
+- Add fluent method chaining to the `Sse` service.
+- The session is now closed by default when the `getEventStream()` method is called, to prevent session locking.
+- Replaced the `DatastarEventStream` trait with the `SseTrait` trait.
+
 ## 1.0.0-RC.3 - 2025-07-31
 
 - The plugin now includes Datastar [1.0.0-RC.3](https://github.com/starfederation/datastar/releases/tag/v1.0.0-RC.3).
