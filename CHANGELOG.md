@@ -1,10 +1,15 @@
 # Release Notes for Datastar
 
+## 1.0.0-RC.5 - 2025-08-09
+
+- Added the `Sse::shouldCloseSession()` method that determines whether the session should be closed when the event stream begins.
+- Removed the `StreamedResponse` class. The `craft\web\Response` class is now used instead.
+
 ## 1.0.0-RC.4 - 2025-08-06
 
 - The plugin now includes Datastar [1.0.0-RC.4](https://github.com/starfederation/datastar/releases/tag/v1.0.0-RC.4).
-- Add fluent method chaining to the `Sse` service.
 - The session is now closed by default when the `getEventStream()` method is called, to prevent session locking.
+- Added fluent method chaining to the `Sse` service.
 - Replaced the `DatastarEventStream` trait with the `SseTrait` trait.
 
 ## 1.0.0-RC.3 - 2025-07-31
