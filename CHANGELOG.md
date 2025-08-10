@@ -1,5 +1,11 @@
 # Release Notes for Datastar
 
+## 1.0.0-RC.6 - 2025-08-10
+
+- It’s now possible to pass options in as string, for cases when JSON encoding is not desirable.
+- Renamed the `Sse` service to `SseService`.
+- Renamed the `SseTrait` trait to `Sse`.
+
 ## 1.0.0-RC.5 - 2025-08-09
 
 - Added the `Sse::shouldCloseSession()` method that determines whether the session should be closed when the event stream begins.
