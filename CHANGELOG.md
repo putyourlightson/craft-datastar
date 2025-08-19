@@ -1,5 +1,11 @@
 # Release Notes for Datastar
 
+## 1.0.0-RC.7 - 2025-08-19
+
+- The package now includes Datastar [1.0.0-RC.5](https://github.com/starfederation/datastar/releases/tag/v1.0.0-RC.5).
+- Improved error handling.
+- Fixed a bug in which options were being double JSON encoded.
+
 ## 1.0.0-RC.6 - 2025-08-10
 
 - It’s now possible to pass options in as string, for cases when JSON encoding is not desirable.

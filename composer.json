@@ -1,13 +1,13 @@
 {
   "name": "putyourlightson/craft-datastar",
   "description": "A reactive hypermedia framework for Craft.",
-  "version": "1.0.0-RC.6",
+  "version": "1.0.0-RC.7",
   "type": "craft-plugin",
   "license": "mit",
   "require": {
     "php": "^8.2",
     "craftcms/cms": "^5.4",
-    "putyourlightson/craft-datastar-module": "^1.0.0-RC.7"
+    "putyourlightson/craft-datastar-module": "^1.0.0-RC.8"
   },
   "require-dev": {
     "craftcms/ecs": "dev-main",
