@@ -1,5 +1,9 @@
 # Release Notes for Datastar
 
+## 1.0.0-RC.8 - 2025-09-20
+
+- Fixed a bug in which headers were being accessed for console requests.
+
 ## 1.0.0-RC.7 - 2025-08-19
 
 - The package now includes Datastar [1.0.0-RC.5](https://github.com/starfederation/datastar/releases/tag/v1.0.0-RC.5).
