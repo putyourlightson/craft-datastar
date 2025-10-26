@@ -1,5 +1,12 @@
 # Release Notes for Datastar
 
+## 1.0.0-RC.9 - 2025-10-26
+
+> [!NOTE]
+> The Datastar syntax has changed in this release. Please see the [release notes](https://github.com/starfederation/datastar/releases/tag/v1.0.0-RC.6) and modify your code accordingly.
+
+- The package now includes Datastar [1.0.0-RC.6](https://github.com/starfederation/datastar/releases/tag/v1.0.0-RC.6).
+
 ## 1.0.0-RC.8 - 2025-09-20
 
 - Fixed a bug in which headers were being accessed for console requests.
