@@ -2,7 +2,8 @@
 
 ## 1.0.0-RC.10 - 2025-12-20
 
-- Added the `shouldCloseSession` config setting that determines whether the session should be closed when the event stream begins, defaulting to `false` ([#24](https://github.com/putyourlightson/craft-datastar-module/issues/24)).
+- Added the `shouldCloseSession` config setting that determines whether the session should be closed when the event stream begins.
+- The event stream now runs callable functions before flushing any content ([#24](https://github.com/putyourlightson/craft-datastar-module/issues/24)).
 - The package now includes Datastar [1.0.0-RC.7](https://github.com/starfederation/datastar/releases/tag/v1.0.0-RC.7).
 
 ## 1.0.0-RC.9 - 2025-10-26
