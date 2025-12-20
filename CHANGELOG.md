@@ -1,5 +1,9 @@
 # Release Notes for Datastar
 
+## 1.0.0-RC.10 - 2025-12-20
+
+- Added the `shouldCloseSession` config setting that determines whether the session should be closed when the event stream begins, defaulting to `false`.
+
 ## 1.0.0-RC.9 - 2025-10-26
 
 > [!NOTE]
