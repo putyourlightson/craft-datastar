@@ -1,5 +1,9 @@
 # Release Notes for Datastar
 
+## 1.0.0-RC.11 - 2026-01-04
+
+- Reverted running callable functions before flushing content, which was resulting in duplicate patch events ([#25](https://github.com/putyourlightson/craft-datastar-module/issues/25)).
+
 ## 1.0.0-RC.10 - 2025-12-20
 
 - Added the `shouldCloseSession` config setting that determines whether the session should be closed when the event stream begins.
