@@ -1,5 +1,9 @@
 # Release Notes for Datastar
 
+## 1.0.0-RC.12 - 2026-04-14
+
+- The package now includes Datastar [1.0.0-RC.8](https://github.com/starfederation/datastar/releases/tag/v1.0.0-RC.8).
+
 ## 1.0.0-RC.11 - 2026-01-04
 
 - Reverted running callable functions before flushing content, which was resulting in duplicate patch events ([#25](https://github.com/putyourlightson/craft-datastar/issues/25)).
