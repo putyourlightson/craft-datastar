@@ -32,18 +32,18 @@
                                     </div>
                                 </div>
                                 <div data-show="$entryId == {{ entry.id }}" style="display: none">
-                                    <input data-bind-title data-on-keydown="evt.key == 'Enter' && confirm('Are you sure?') && {{ datastar.post('_partials/save-entry.twig') }}" type="text" class="input input-bordered w-full">
+                                    <input data-bind:title data-on:keydown="evt.key == 'Enter' && confirm('Are you sure?') && {{ datastar.post('_partials/save-entry.twig') }}" type="text" class="input input-bordered w-full">
                                 </div>
                             </td>
                             <td>{{ entry.author.username }}</td>
                             <td>
-                                <button id="edit-{{ entry.id }}" data-on-click="$alert = false; $entryId = {{ entry.id }}; $title = '{{ entry.title }}'" data-show="$entryId != {{ entry.id }}" class="btn">
+                                <button id="edit-{{ entry.id }}" data-on:click="$alert = false; $entryId = {{ entry.id }}; $title = '{{ entry.title }}'" data-show="$entryId != {{ entry.id }}" class="btn">
                                     Edit
                                 </button>
-                                <button data-on-click="$alert = false; $entryId = 0" data-show="$entryId == {{ entry.id }}" class="btn" style="display: none">
+                                <button data-on:click="$alert = false; $entryId = 0" data-show="$entryId == {{ entry.id }}" class="btn" style="display: none">
                                     Cancel
                                 </button>
-                                <button data-on-click="confirm('Are you sure?') && {{ datastar.post('_partials/save-entry.twig') }}" data-show="$entryId == {{ entry.id }}" class="btn btn-primary" style="display: none">
+                                <button data-on:click="confirm('Are you sure?') && {{ datastar.post('_partials/save-entry.twig') }}" data-show="$entryId == {{ entry.id }}" class="btn btn-primary" style="display: none">
                                     Save
                                 </button>
                             </td>

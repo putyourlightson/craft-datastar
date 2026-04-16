@@ -12,7 +12,7 @@
         <div data-signals="{reversed: ''}" class="flex flex-col space-y-8">
             <div class="space-y-2">
                 <label>Name</label>
-                <input data-bind-name class="input input-bordered w-full">
+                <input data-bind:name class="input input-bordered w-full">
             </div>
             <div class="space-y-2">
                 <label>Reversed</label>
@@ -21,8 +21,8 @@
                 </div>
             </div>
             <reverse-component
-                data-attributes-name="$name"
-                data-on-reverse="$reversed = evt.detail.value"
+                data-attr:name="$name"
+                data-on:reverse="$reversed = evt.detail.value"
             ></reverse-component>
         </div>
     </div>

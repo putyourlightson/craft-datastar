@@ -9,10 +9,10 @@
 <body>
     {# https://tailwindcss.com/docs/container #}
     <div class="container mx-auto max-w-xl py-16">
-        <div data-signals="{reversed: ''}" data-on-reverse__window="$reversed = evt.detail.value" class="flex flex-col space-y-8">
+        <div data-signals="{reversed: ''}" data-on:reverse__window="$reversed = evt.detail.value" class="flex flex-col space-y-8">
             <div class="space-y-2">
                 <label>Name</label>
-                <input data-bind-name data-on-input="reverse($name)" class="input input-bordered w-full">
+                <input data-bind:name data-on:input="reverse($name)" class="input input-bordered w-full">
             </div>
             <div class="space-y-2">
                 <label>Reversed</label>

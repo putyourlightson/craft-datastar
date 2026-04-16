@@ -25,7 +25,7 @@
         <div id="title-{{ signals.entryId }}">
             {{ signals.title }}
         </div>
-        <button id="edit-{{ signals.entryId }}" data-on-click="entryId.value = {{ signals.entryId }}; title..value = '{{ signals.title }}'" data-show="entryId.value != {{ signals.entryId }}" class="btn">
+        <button id="edit-{{ signals.entryId }}" data-on:click="entryId.value = {{ signals.entryId }}; title..value = '{{ signals.title }}'" data-show="entryId.value != {{ signals.entryId }}" class="btn">
             Edit
         </button>
     {% endpatchelements %}
