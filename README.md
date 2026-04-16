@@ -34,7 +34,7 @@ This plugin requires [Craft CMS](https://craftcms.com/) 5.4.0 or later.
 To install the plugin, search for “Datastar” in the Craft Plugin Store, or install manually using composer.
 
 ```shell
-composer require putyourlightson/craft-datastar:^1.0.0-RC.1
+composer require putyourlightson/craft-datastar:^1.0.0
 ```
 
 ---

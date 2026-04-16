@@ -1,8 +1,12 @@
 # Release Notes for Datastar
 
+## 1.0.0 - 2026-04-16
+
+- The plugin now includes Datastar [1.0.0](https://github.com/starfederation/datastar/releases/tag/v1.0.0).
+
 ## 1.0.0-RC.12 - 2026-04-14
 
-- The package now includes Datastar [1.0.0-RC.8](https://github.com/starfederation/datastar/releases/tag/v1.0.0-RC.8).
+- The plugin now includes Datastar [1.0.0-RC.8](https://github.com/starfederation/datastar/releases/tag/v1.0.0-RC.8).
 
 ## 1.0.0-RC.11 - 2026-01-04
 
@@ -12,14 +16,14 @@
 
 - Added the `shouldCloseSession` config setting that determines whether the session should be closed when the event stream begins.
 - The event stream now runs callable functions before flushing any content ([#24](https://github.com/putyourlightson/craft-datastar/issues/24)).
-- The package now includes Datastar [1.0.0-RC.7](https://github.com/starfederation/datastar/releases/tag/v1.0.0-RC.7).
+- The plugin now includes Datastar [1.0.0-RC.7](https://github.com/starfederation/datastar/releases/tag/v1.0.0-RC.7).
 
 ## 1.0.0-RC.9 - 2025-10-26
 
 > [!NOTE]
 > The Datastar syntax has changed in this release. Please see the [release notes](https://github.com/starfederation/datastar/releases/tag/v1.0.0-RC.6) and modify your code accordingly.
 
-- The package now includes Datastar [1.0.0-RC.6](https://github.com/starfederation/datastar/releases/tag/v1.0.0-RC.6).
+- The plugin now includes Datastar [1.0.0-RC.6](https://github.com/starfederation/datastar/releases/tag/v1.0.0-RC.6).
 
 ## 1.0.0-RC.8 - 2025-09-20
 
@@ -27,7 +31,7 @@
 
 ## 1.0.0-RC.7 - 2025-08-19
 
-- The package now includes Datastar [1.0.0-RC.5](https://github.com/starfederation/datastar/releases/tag/v1.0.0-RC.5).
+- The plugin now includes Datastar [1.0.0-RC.5](https://github.com/starfederation/datastar/releases/tag/v1.0.0-RC.5).
 - Improved error handling.
 - Fixed a bug in which options were being double JSON encoded.
 
