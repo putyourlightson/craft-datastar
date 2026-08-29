@@ -1,5 +1,9 @@
 # Release Notes for Datastar
 
+## 1.0.3 - 2026-08-29
+
+- The plugin now includes Datastar [1.0.3](https://github.com/starfederation/datastar/releases/tag/v1.0.3).
+
 ## 1.0.2 - 2026-06-14
 
 - The plugin now includes Datastar [1.0.2](https://github.com/starfederation/datastar/releases/tag/v1.0.2).
