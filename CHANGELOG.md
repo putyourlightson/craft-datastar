@@ -1,5 +1,11 @@
 # Release Notes for Datastar
 
+## 1.0.4 - 2026-10-10
+
+- The plugin now includes Datastar [1.0.4](https://github.com/starfederation/datastar/releases/tag/v1.0.4).
+- Fixed a bug in which event streams sent headers before rendering templates on PHP 8.4 and later under FastCGI ([#11](https://github.com/putyourlightson/craft-datastar-module/issues/11)).
+- Fixed a bug in which exceptions during event streaming were hidden by a `HeadersAlreadySentException`.
+
 ## 1.0.3 - 2026-08-29
 
 - The plugin now includes Datastar [1.0.3](https://github.com/starfederation/datastar/releases/tag/v1.0.3).
